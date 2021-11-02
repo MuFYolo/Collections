@@ -20,6 +20,8 @@ public class CarArrayList implements CarList {
         size++;
     }
 
+
+
     @Override
     public boolean remove(Car car) {
         for (int i = 0; i < size; i++) {
