@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CarListTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-11-09T22:56:44" hostname="DESKTOP-QAM109C" time="0.024">
+<testsuite name="CarListTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-11-11T19:19:27" hostname="DESKTOP-QAM109C" time="0.03">
   <properties/>
-  <testcase name="whenAdded100ElementsThenSizeMustBe100()" classname="CarListTest" time="0.017"/>
+  <testcase name="whenAdded100ElementsThenSizeMustBe100()" classname="CarListTest" time="0.019"/>
   <testcase name="methodGetReturnedRightValue()" classname="CarListTest" time="0.001"/>
+  <testcase name="insertIntoMidle()" classname="CarListTest" time="0.0"/>
   <testcase name="whenElementRemovedByIndexThenSizeMustBeDecreased()" classname="CarListTest" time="0.001"/>
   <testcase name="whenListClearedThenSizeMustBe0()" classname="CarListTest" time="0.001"/>
-  <testcase name="whenElementRemovedThenSizeMustBeDecreased()" classname="CarListTest" time="0.001"/>
-  <testcase name="whenNonExistentElementRemovedThenReturnFalse()" classname="CarListTest" time="0.001"/>
-  <testcase name="whenIndexOutOfBoundsThenThrownException()" classname="CarListTest" time="0.001"/>
+  <testcase name="insertIntoFirstPosition()" classname="CarListTest" time="0.001"/>
+  <testcase name="whenElementRemovedThenSizeMustBeDecreased()" classname="CarListTest" time="0.0"/>
+  <testcase name="whenNonExistentElementRemovedThenReturnFalse()" classname="CarListTest" time="0.0"/>
+  <testcase name="insertIntoLastPosition()" classname="CarListTest" time="0.0"/>
+  <testcase name="whenIndexOutOfBoundsThenThrownException()" classname="CarListTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
